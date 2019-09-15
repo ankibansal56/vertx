@@ -3,3 +3,8 @@ INSERT INTO BLOCKS VALUES(0,2147483647,0)
 COMMIT
 /*C3*/SET SCHEMA PUBLIC
 create table if not exists Pages (Id integer identity primary key, Name varchar(255) unique, Content clob)
+DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C2*/SET SCHEMA PUBLIC
+DISCONNECT
